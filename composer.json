@@ -1,0 +1,16 @@
+{
+    "name": "onphpoint/object_oriented_php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Onphpoint\\ObjectOrientedPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felix Wollmann",
+            "email": "50966625+felixwollmann@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
