@@ -27,6 +27,22 @@ echo <<<'HTML'
 </head>
 <body>
 <h1>Foodtube</h1>
+<main>
 HTML;
 
+foreach ($videos as $video) {
+	echo <<<"HTML"
+    <div class="content-box">
+        <h2>{$video->getName()}</h2>
+        <p>{$video->getSource()}</p>
+        {$video->getHTML()}
+    </div>
+HTML;
+
+}
+echo <<<END
+</main>
+</body>
+</html>
+END;
 
