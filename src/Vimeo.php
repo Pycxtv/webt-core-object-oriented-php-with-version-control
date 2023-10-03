@@ -1,6 +1,7 @@
-<?php 
+<?php
 
-require_once('Video.php');
+namespace Onphpoint\ObjectOrientedPhp;
+
 
 class Vimeo extends Video {
 

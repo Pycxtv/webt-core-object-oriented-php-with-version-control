@@ -1,6 +1,5 @@
 <?php
-
-require_once 'VideoInterface.php';
+namespace Onphpoint\ObjectOrientedPhp;
 
 abstract class Video implements VideoInterface
 {

@@ -2,7 +2,7 @@
 
 namespace Onphpoint\ObjectOrientedPhp;
 
-class YoutubeVideo extends \Video {
+class YouTube extends Video {
 
 	public string $id;
 
