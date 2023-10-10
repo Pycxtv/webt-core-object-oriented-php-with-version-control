@@ -1,6 +1,6 @@
 <?php
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 use Onphpoint\ObjectOrientedPhp\YouTube;
 use Onphpoint\ObjectOrientedPhp\Vimeo;
