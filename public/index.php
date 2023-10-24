@@ -29,13 +29,13 @@ echo <<<'HTML'
 </head>
 <body>
 <h1>Foodtube</h1>
-<main class="grid">
+<main class="grid px-4">
 HTML;
 
 foreach ($videos as $video) {
 	echo <<<"HTML"
      
-        <div class="card g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3">
+        <div class="card g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3 overflow-hidden">
 			{$video->getHTML()}  
 <div class="card-body">
     <h5 class="card-title">{$video->getName()}</h5>

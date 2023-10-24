@@ -28,16 +28,6 @@ main {
   align-items: stretch;
 }
 
-.content-box {
-  display: flex;
-  border: 1px solid hsl(75, 55%, 41%);
-  width: 30vw;
-  padding: 1em;
-  background: hsl(133, 89%, 93%);
-  border-radius: 1em;
-  flex-direction: column;
-}
-
-.content-box iframe {
-  margin: 4.5%;
+iframe {
+  aspect-ratio: 16/9;
 }
