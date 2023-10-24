@@ -1,3 +1,5 @@
 /vendor/
 .idea
 node_modules
+public/custom.css
+*.css.map
