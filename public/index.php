@@ -34,11 +34,15 @@ HTML;
 
 foreach ($videos as $video) {
 	echo <<<"HTML"
-    <div class="content-box">
-        <h2>{$video->getName()}</h2>
-        <p>{$video->getSource()}</p>
-        {$video->getHTML()}
-    </div>
+     
+        <div class="card" style="width: 18rem;">
+			{$video->getHTML()}  
+<div class="card-body">
+    <h5 class="card-title">{$video->getName()}</h5>
+    <p class="card-text">{$video->getSource()}</p>
+  </div>
+</div>
+
 HTML;
 
 }
