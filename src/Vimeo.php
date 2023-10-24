@@ -19,6 +19,6 @@ class Vimeo extends Video {
 
     function getHTML(): string
     {
-        return "<iframe src=\"https://player.vimeo.com/video/{$this->id}\" width=\"420\" height=\"236\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen></iframe>";
+        return "<iframe class=\"object-fit-cover\" src=\"https://player.vimeo.com/video/{$this->id}\"  allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen></iframe>";
     }
 }

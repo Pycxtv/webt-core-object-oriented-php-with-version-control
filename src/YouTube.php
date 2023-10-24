@@ -18,7 +18,7 @@ class YouTube extends Video {
 
 	function getHTML(): string {
 		return <<<"HTML"
-<iframe width="420" height="236" src="https://www.youtube-nocookie.com/embed/{$this->id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="object-fit-contain" src="https://www.youtube-nocookie.com/embed/{$this->id}"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 HTML;
 
 	}
