@@ -27,8 +27,8 @@ echo <<<'HTML'
     <title>Foodtube</title>
     <link rel="stylesheet" href="custom.css" >
 </head>
-<body>
-<h1>Foodtube</h1>
+<body class="text-md-center">
+<h1 class="px-4 py-2">Foodtube</h1>
 <main class="grid px-4">
 HTML;
 
