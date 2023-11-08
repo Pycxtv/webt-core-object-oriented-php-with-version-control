@@ -35,7 +35,7 @@ HTML;
 foreach ($videos as $video) {
 	echo <<<"HTML"
      
-        <div class="card g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3 overflow-hidden">
+        <div class="card g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-3 overflow-hidden card-img-top">
 			{$video->getHTML()}  
 <div class="card-body">
     <h5 class="card-title">{$video->getName()}</h5>
