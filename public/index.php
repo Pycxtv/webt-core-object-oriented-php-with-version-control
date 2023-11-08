@@ -28,7 +28,7 @@ echo <<<'HTML'
     <link rel="stylesheet" href="custom.css" >
 </head>
 <body class="text-md-center">
-<h1 class="px-4 py-2">Foodtube</h1>
+<h1 class="px-4 py-2 display-4">Foodtube</h1>
 <main class="grid px-4 text-start">
 HTML;
 
