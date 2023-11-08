@@ -29,7 +29,7 @@ echo <<<'HTML'
 </head>
 <body class="text-md-center">
 <h1 class="px-4 py-2">Foodtube</h1>
-<main class="grid px-4">
+<main class="grid px-4 text-start">
 HTML;
 
 foreach ($videos as $video) {
